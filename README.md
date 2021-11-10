@@ -13,3 +13,11 @@ For evevry period, We lable stock according to its return.The top 30 percent of 
 ### valuation of the model 
 We valuate the model by the accutacy rate and AUC, besides we do backtest on the features to see wether it is consisitent with the importance score the model give.And we also do backtest on the predict score the model give,which can be interprate as as the probability of the stock's label being 1.The backtest framework is a single factor test framework, and we mainly use the IC_IR ration and long-short return evaluation the effectiveness of the factor(feature). 
 ### result
+#### average accuracy and auc
+![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/82071ea694abc377282ef994e907471.png)
+#### relationship between importance and IC_IR
+![image text]https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/IC_predict_score_final_m.png)
+![image text]((https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/473a32f914178b92667ed7267edf3ed.png)
+#### IC_IR and long_short return of predict_score factor
+![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/IC_predict_score_final_m.png)
+![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/L-S_predict_score_final_m.png)
