@@ -16,8 +16,7 @@ We valuate the model by the accutacy rate and AUC, besides we do backtest on the
 #### average accuracy and auc
 ![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/82071ea694abc377282ef994e907471.png)
 #### relationship between importance and IC_IR
-![image text]https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/IC_predict_score_final_m.png)
-![image text]((https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/473a32f914178b92667ed7267edf3ed.png)
+![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/473a32f914178b92667ed7267edf3ed.png)
 #### IC_IR and long_short return of predict_score factor
 ![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/IC_predict_score_final_m.png)
 ![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/L-S_predict_score_final_m.png)
