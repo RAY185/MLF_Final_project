@@ -11,9 +11,11 @@ XGBOOST is an improvement of GBDT.It uses the residual of the fommer model to ta
 #### The procedure picture of XGBOOST
 ![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/363bb7633db44dc6a7b801941326631.png)
 ### Data source
-We select 18 features data of all A-shares on the last trading day of each month from 2010 to 2020 from wind.We take (t,t+5)as the training set and t+1 as the test set,where t is from 2010 to 2014. For each period we eliminate the stock that has been listed within 3 months, and the stock that has been suspended from trading.
+We select 18 features data of all A-shares on the last trading day of each month from 2010 to 2020 from Wind.We also get the return data of stock and index SH300 and the data  about wether the stock is on list or suspended from trading form Wind. 
 ### Label the data and form the training set and test set 
-For evevry period, We lable stock according to its return.The top 30 percent of stocks are marked as 1, the bottom 30 percent as -1.Then combine them as sample for each period and select 90% as training set 10% as test set.
+We lable stock according to its return.The top 30 percent of stocks are marked as 1, the bottom 30 percent as -1.Then combine them as sample for each period.  
+We take sample in (t,t+5) as the training set and t+1 as the test set,where t is from 2010 to 2014. In the training set, we randomly select 90% as training set,10% as validation set.  
+For each period we eliminate the stock that has been listed within 3 months, and the stock that has been suspended from trading.
 ### Valuation of the model 
 We valuate the model by the accutacy rate and AUC. Besides, we do backtest on the features to see wether it is consisitent with the importance score the model give.And we also do backtest on the predict score the model give,which can be interprate as as the probability of the stock's label being 1.The backtest framework is a single factor test framework, and we mainly use the IC_IR ration and long-short return evaluation the effectiveness of the factor(feature). 
 ### Result at present(need change)
