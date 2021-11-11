@@ -15,7 +15,7 @@ We select 18 features data of all A-shares on the last trading day of each month
 ### Label the data and form the training set and test set 
 For evevry period, We lable stock according to its return.The top 30 percent of stocks are marked as 1, the bottom 30 percent as -1.Then combine them as sample for each period and select 90% as training set 10% as test set.
 ### Valuation of the model 
-We valuate the model by the accutacy rate and AUC, besides we do backtest on the features to see wether it is consisitent with the importance score the model give.And we also do backtest on the predict score the model give,which can be interprate as as the probability of the stock's label being 1.The backtest framework is a single factor test framework, and we mainly use the IC_IR ration and long-short return evaluation the effectiveness of the factor(feature). 
+We valuate the model by the accutacy rate and AUC. Besides, we do backtest on the features to see wether it is consisitent with the importance score the model give.And we also do backtest on the predict score the model give,which can be interprate as as the probability of the stock's label being 1.The backtest framework is a single factor test framework, and we mainly use the IC_IR ration and long-short return evaluation the effectiveness of the factor(feature). 
 ### Result at present(need change)
 #### Average accuracy and auc
 ![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/82071ea694abc377282ef994e907471.png)
