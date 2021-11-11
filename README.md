@@ -4,10 +4,10 @@ For MLF final project
 ### Motivation
 We know that maching learning can be use to select important features for predictding stocks' performance.In factor investment, people want to find factors that is highly correlated with the return of stock, so we want to use machinglearning to  select the important factors.Besides, when we use the maching learning model to predict the performance of the stock, the prediction itself can be seen as a factor, because if maching learning model works,then the return of investment based on the prediction should be highly correlated with model's prediction.So we want to use maching learning model to produce a factor.
 ### Goal
-1.select important features of stock by maching learning.
+1.select important features of stock by maching learning.  
 2.Forming a factor of stock by maching learning.
 ### Introdcution of XGBOOST
-XGBOOST is an improvement of GBDT.It uses the residual of the fommer model to tarin the next model, the reason we choose XGBoost is that it is more effecient.
+XGBOOST is an improvement of GBDT.It uses the residual of the fommer model to tarin the next model, the reason we choose XGBoost is that it is more effecient.  
 The procedure picture of XGBOOST
 ![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/5d690a4233bd7d96385eb0ceacb99a5.png)
 ### Data source
