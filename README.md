@@ -9,7 +9,7 @@ We know that maching learning can be use to select important features for predic
 ### Introdcution of XGBOOST
 XGBOOST is an improvement of GBDT.It uses the residual of the fommer model to tarin the next model, the reason we choose XGBoost is that it is more effecient.  
 #### The procedure picture of XGBOOST
-![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/5d690a4233bd7d96385eb0ceacb99a5.png)
+![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/363bb7633db44dc6a7b801941326631.png)
 ### Data source
 We select 18 features data of all A-shares on the last trading day of each month from 2010 to 2020 from wind.We take (t,t+5)as the training set and t+1 as the test set,where t is from 2010 to 2014. For each period we eliminate the stock that has been listed within 3 months, and the stock that has been suspended from trading.
 ### Label the data and form the training set and test set 
