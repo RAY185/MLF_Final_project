@@ -6,8 +6,10 @@ We know that maching learning can be use to select important features for predic
 ### Goal
 1.select important features of stock by maching learning.
 2.Forming a factor of stock by maching learning.
+### Introdcution of XGBOOST
+XGBOOST is an improvement of GBDT.It uses the residual of the fommer model to tarin the next model, the reason we choose XGBoost is that it is more effecient.
 ### data source
-We select 18 features data of all A-shares on the last trading day of each month from 2010 to 2020 from wind.We take 2010 to 2015 as the training set and 2016 to 2020 as the test set.For each period we eliminate the stock that has been listed within 3 months, and the stock that has been suspended from trading.
+We select 18 features data of all A-shares on the last trading day of each month from 2010 to 2020 from wind.We take (t,t+5)as the training set and t+1 as the test set,where t is from 2010 to 2014. For each period we eliminate the stock that has been listed within 3 months, and the stock that has been suspended from trading.
 ### label the data and form the training set and test set 
 For evevry period, We lable stock according to its return.The top 30 percent of stocks are marked as 1, the bottom 30 percent as -1.Then combine them as sample for each period and select 90% as training set 10% as test set.
 ### valuation of the model 
