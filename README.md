@@ -10,7 +10,7 @@ We know that maching learning can be use to select important features for predic
 ### Data source
 We select 32 features data of all A-shares on the last trading day of each month from 2010 to 2020 from Wind.We also get the return data of stock and index SH300 and the data  about wether the stock is on list or suspended from trading form Wind. 
 #### Features selected  
-
+![image text](https://github.com/RAY185/MLF_Final_project/blob/main/result_summary_img/features_selected.png)
 ### Label the data and form the training set and test set 
 We lable stock according to its return.The top 30 percent of stocks are marked as 1, the bottom 30 percent as -1.Then combine them as sample for each period.  
 We take sample in (t,t+5) as the training set and t+6 as the test set,where t is from 2010 to 2014. In the training set, we randomly select 90% as training set,10% as validation set.  
